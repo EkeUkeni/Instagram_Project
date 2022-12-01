@@ -1,0 +1,155 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper {
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: 1fr 6fr;
+    padding: 40px;
+    align-items: center;
+}
+.section-one{
+    height: 100%;
+}
+.ig {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+.left-li-holder {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 15px;
+}
+.more {
+    padding-top: 40px;
+}
+.left-li img,
+.profile img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+/* style for section-two */
+.section-two{
+    display: grid;
+    grid-template-columns: 3.5fr 2.5fr;
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+.sub-section-two{
+    margin: 0px 0px 0px 100px;
+    display: flex;
+}
+.feed-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border: 1px ridge;
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 470px;
+    line-height: .1px;
+}
+.feed-title img{
+    width: 70px;
+}
+.story img,
+.profile-story img{
+    width: 55px;
+}
+.feed-title p{
+    font-size: 15px;
+    padding-right: 10px;
+    color: gray;
+}
+/* style for feed-title2 */
+.feed-title2 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 490px;
+    border-radius: 5px;
+    background-color: white;
+}
+.feed-title2 span {
+    margin-left: 140px;
+
+}
+.feed-title2 img{
+    width: 40px;
+    padding: 0px 10px;
+}
+.feed-img1 img{
+    width: 492px;
+    margin-top: -4px;
+}
+.card-likes-holder {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 490px;
+    margin-top: -4px;
+    line-height: 1.1px;
+}
+.card-id {
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    font-size: 20px;
+}
+ .fa-bookmark-o {
+    padding-left: 340px;
+}
+.card-likes-holder p{
+    padding-left: 10px;
+}
+.likes :first-child {
+    padding-bottom: 20px;
+}
+.likes .hours {
+    line-height: 15px;
+    color: gray;
+    font-size: 12px;
+}
+.comments span{
+    align-items: center;
+    gap: 10px;
+    /* padding: 10px; */
+}
+.comments :last-child{
+    padding-left: 440px
+}
+
+/* style for section-two-rightside */
+.section-two-rightside {
+   margin-left: 40px;
+   font-size: 12px;
+}
+.profile-story{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+.profile-story a{
+    text-decoration: none;
+    color: rgba(0, 162, 255, 0.9);
+}
+.profile-story .name{
+    width: 200px;
+    line-height: 5px;
+}
+.see-all {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    color: gray;
+    line-height: 20px;
+    margin-top: 40px;
+}
